@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@800&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222323;
+}
+
+
+.titulo-p{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    font-family:'Poppins', sans-serif;
+}
+
+
+.politica{
+    width: 100%;
+    height: auto;
+    background-color: #222323;
+}
+
+.parrafos-p{
+    width: 100%;
+    height: auto;
+    background-color: #222323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.caja-3{
+    width: 70%;
+    height: auto;
+}
+.cont-p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Sarabun', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.boton{
+    width: 6%;
+    height: auto;
+    background-color: #222323;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    position: absolute ;
+    top: 10px; left: 4px;
+}
+
+.btnp{
+    font-family: 'Sarabun', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+
+ @media screen and (min-width: 972px) {
+
+    
+    .titulo-p{
+        text-align: center;
+        font-size: 40px;
+        padding-top: 30px;
+        font-family:'Poppins', sans-serif;
+    }
+    
+    
+    .politica{
+        width: 100%;
+        height: auto;
+        background-color: #222323;
+    }
+    
+    .parrafos-p{
+        width: 100%;
+        height: auto;
+        background-color: #222323;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+    
+    .caja-3{
+        width: 70%;
+        height: auto;
+    }
+    .cont-p{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        font-family: 'Sarabun', sans-serif;
+        letter-spacing: 1px;
+        font-size: 17px;
+        padding-top: 10px;
+    }
+
+    .boton{
+        width: 6%;
+        height: auto;
+        background-color: #222323;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        position: absolute ;
+        top: 10px; left: 4px;
+    }
+
+    .btnp{
+        font-family: 'Sarabun', sans-serif;
+        letter-spacing: 1px;
+        font-size: 18px;
+        color: #fff;
+    }
+}
